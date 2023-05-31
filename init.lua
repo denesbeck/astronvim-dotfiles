@@ -6,6 +6,7 @@ return {
     },
   },
   plugins = {
+    { "nvim-notify",                                   opts = { background_colour = "#000000" } },
     "AstroNvim/astrocommunity",
     { import = "astrocommunity.completion.copilot-lua" },
     {
@@ -24,6 +25,7 @@ return {
         },
       },
     },
+
     -- lsp
     { import = "astrocommunity.pack.docker" },
     { import = "astrocommunity.pack.json" },
