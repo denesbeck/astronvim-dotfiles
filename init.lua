@@ -47,7 +47,6 @@ return {
     },
     { import = "astrocommunity.editing-support.todo-comments-nvim" },
     { import = "astrocommunity.lsp.inc-rename" },
-    { import = "astrocommunity.workflow.hardtime-nvim" },
 
     -- themes
     {
