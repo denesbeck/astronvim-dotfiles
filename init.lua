@@ -5,8 +5,14 @@ return {
       wrap = true,
     },
   },
+  mappings = {
+    n = {
+      ["<C-j>"] = { "<cmd>m .+1<CR>", desc = "Move line down" },
+      ["<C-k>"] = { "<cmd>m .-2<CR>", desc = "Move line up" },
+    },
+  },
   plugins = {
-    { "nvim-notify",                                   opts = { background_colour = "#000000" } },
+    { "nvim-notify", opts = { background_colour = "#000000" } },
     "AstroNvim/astrocommunity",
     { import = "astrocommunity.completion.copilot-lua" },
     {
